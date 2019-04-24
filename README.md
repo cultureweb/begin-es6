@@ -38,6 +38,8 @@ Convertissez les 3 fonctions avec la notation "Arrow function" et vérifiez que 
 2. Convertissez la fonction `showThis` en notation "Arrow function"
 3. Observez le résultat. Que pouvez-vous en conclure ?
 
+Deux facteurs sont à l’origine de la conception des fonctions fléchées : une syntaxe plus courte et l’absence de this spécifique à la fonction
+
 ### Section 3
 Complétez le code pour reproduire le comportement de la section 1 mais cette fois-ci grâce à l'objet `odile`. Vous utiliserez dès que possible des "Arrow functions".
 

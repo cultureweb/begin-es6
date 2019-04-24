@@ -13,13 +13,12 @@ sayMyAge(23)
 //----------------------//
 //2.2 this
 
-const object = {
+const object = { // création d' un objet avec une variable constante (que l'on ne doit pas modifier !!)  
     color: 'red',
     shape: 'circle',
     threeDimensions: false,
-    showThis: function() {
-        console.log(this)
-    }
+    showThis: () => console.log(object)//Deux facteurs sont à l’origine de la conception des fonctions fléchées : une syntaxe plus courte et l’absence de this spécifique à la fonction
+    
 }
 
 object.showThis()

@@ -1,8 +1,8 @@
 //1.1 Types simples
 
-var name = 'Jacques'
-var age = 80
-var useless = 'something'
+let name = 'Jacques'  // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
+let age = 80 // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
+let useless = 'something' // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
 
 console.log(name, age, useless)
 

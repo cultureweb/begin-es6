@@ -34,7 +34,7 @@ const settings = {
     resolution: [1920, 1080]
 }
 
-let savedGame = {
+const savedGame = {
     time: 384,
     score: 47,
     opponent: 'Lolo'

@@ -21,6 +21,8 @@ Cette variable appelé constante n'a pas été modifiée lors de l'exécution du
 ### Section 3
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez l'erreur
+
+On assigne une valeur vide à l'objet savedGame alors qu'il est impossible de modifier une constante !!! 
 3. Corrigez le code en conservant le maximum de valeurs constantes
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**

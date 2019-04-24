@@ -30,4 +30,13 @@ console.log(arrayKeysOfBus[i] + " : "+ arrayValuesOfBus[i]);
 
 //3.2 Object.values
 
-console.log(data)
+console.log(data);
+let datasValue = Object.values(data);
+console.log(datasValue);
+
+for (let property in datasValue) {
+
+    let textValue = datasValue[property].texte;
+    console.log(textValue);
+   
+}

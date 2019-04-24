@@ -1,15 +1,10 @@
 //2.1 Fonctions simples
-const sayHello = function() {
-    console.log('Hello')
-}
 
-const sayMyName = function(first, last) {
-    console.log(first, last)
-}
+const sayHello = () => console.log('Hello');
 
-const sayMyAge = function(age) {
-    console.log('You are ' + age + ' years old')
-}
+const sayMyName = (first, last) => console.log(first, last);
+
+const sayMyAge = (age) => console.log('You are ' + age + ' years old');
 
 sayHello()
 sayMyName('Odile', 'Crok')

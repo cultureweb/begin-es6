@@ -9,7 +9,7 @@
 3. Remplacez toutes les occurences de `let` par `const`.
 4. Expliquez l'erreur
 
-l'erreur Assignment to constant variable sigifie qu'une constante est une valeur qui ne peut pas être modifiée lonrs de l'exécutio du programme. Elle ne peut pas être modifiée grâce à une réaffectation ou grâce à une redéclaration. 
+l'erreur Assignment to constant variable sigifie qu'une constante est une valeur qui ne peut pas être modifiée lors de l'exécution du programme. Elle ne peut pas être modifiée grâce à une réaffectation ou grâce à une redéclaration. 
 
 5. Corrigez le code en conservant le maximum de valeurs constantes
 
@@ -17,6 +17,7 @@ l'erreur Assignment to constant variable sigifie qu'une constante est une valeur
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez **l'absence** l'erreur
 
+Cette variable appelé constante n'a pas été modifiée lors de l'exécution du programme.
 ### Section 3
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez l'erreur

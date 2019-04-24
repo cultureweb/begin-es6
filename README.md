@@ -8,6 +8,9 @@
 2. Constatez que cela ne change rien. Désormais **on n'utilisera plus `var`** mais `let` ou `const`
 3. Remplacez toutes les occurences de `let` par `const`.
 4. Expliquez l'erreur
+
+l'erreur Assignment to constant variable sigifie qu'une constante est une valeur qui ne peut pas être modifiée lonrs de l'exécutio du programme. Elle ne peut pas être modifiée grâce à une réaffectation ou grâce à une redéclaration. 
+
 5. Corrigez le code en conservant le maximum de valeurs constantes
 
 ### Section 2

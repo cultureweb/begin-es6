@@ -1,8 +1,7 @@
 //1.1 Types simples
-
-let name = 'Jacques'  // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
-let age = 80 // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
-let useless = 'something' // let permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
+const name = 'Jacques'  // const permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
+const age = 80 // const permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
+const useless = 'something' // const permet de déclarer une variable dont la portée est celle du bloc courant en initialisant sa valeur.
 
 console.log(name, age, useless)
 
@@ -14,8 +13,8 @@ console.log(name, age, useless)
 //----------------------//
 //1.2 Tableaux
 
-let fruits = ['apple', 'pear', 'cherry']
-let vegetables = ['potato', 'curlyflower', 'tomato']
+const fruits = ['apple', 'pear', 'cherry']
+const vegetables = ['potato', 'curlyflower', 'tomato']
 
 console.log(fruits, vegetables)
 
@@ -27,14 +26,14 @@ console.log(fruits, vegetables)
 //----------------------//
 //1.2 Objets
 
-let settings = {
+const settings = {
     sound: true,
     music: false,
     graphics: 'high',
     resolution: [1920, 1080]
 }
 
-let savedGame = {
+const savedGame = {
     time: 384,
     score: 47,
     opponent: 'Lolo'

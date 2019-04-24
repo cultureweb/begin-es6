@@ -16,5 +16,11 @@ console.log(age)
 
 //4.2 Application
 
-console.log(data)
+console.log(data);
+for (let property in data) {
 
+    console.log(data[property]);
+    const {texte, dateDebut, dateFin} = data[property];
+    console.log(texte + dateDebut + dateFin);
+   
+}

@@ -17,6 +17,15 @@ for (let key in bus) { //Afficher les carractéristiques du véhicule sours la f
  let value = bus [key];
  console.log(key + " :  " + value)
 }
+// Autre Méthode
+
+let arrayKeysOfBus = Object.keys(bus);
+let arrayValuesOfBus  = Object.values(bus);
+
+for(let i = 0; i < arrayKeysOfBus.length; i++) { //Afficher les carractéristiques du véhicule sours la forme clé : valeur (Ex: id: 3221)
+let arrayValuesOfBus  = Object.values(bus);
+console.log(arrayKeysOfBus[i] + " : "+ arrayValuesOfBus[i]);
+}
 
 
 //3.2 Object.values
